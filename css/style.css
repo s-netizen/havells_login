@@ -1,0 +1,83 @@
+ 
+ body {
+            font-family: "Consolas";
+           
+            
+        }
+body, html {height: 100%}
+.data-table {height:100%; width:100%; table-layout: fixed; display:table;}
+.data-cell { display: table-cell; vertical-align: middle; }
+.login-wapper {max-width: 500px;
+    width: 100%;
+    padding: 83px 39px 90px 39px;
+    float: right;
+    border: 40px;
+    background-color: rgba(255,255,255,0.8);
+    display: block;
+    margin-right: 119px; position: relative;
+    border-radius: 20px;
+}
+
+    
+.bg-image { background-repeat: no-repeat; background-size: cover; background-position: center top; }
+        form {
+            background-color:#fff;
+            padding: 10px;
+            margin: 100px 117px 0px 769px;
+            border-radius:10px;
+            padding-bottom:20px;
+        }
+         .input-icons i { 
+            position: absolute; 
+        } 
+          
+        .input-icons { 
+            width: 100%; 
+            margin-bottom: 10px; 
+        } 
+          
+        .icon { 
+            padding: 17px; 
+            color: red; 
+            min-width: 50px; 
+            text-align:left; 
+        } 
+          
+        .input-field {
+            
+            width: 100%; 
+            padding: 10px 195px 7px 1px; 
+            text-align:-webkit-center; 
+        } 
+          
+        h2 { 
+            color: solid black;
+            font-weight: bolder; 
+        } 
+.logo {position:absolute; top:-45px; right:0; left:0; margin:0 auto; display:block; width:90px;}
+
+@media only screen and (max-width:1199px) {
+.bg-image {background-size: 100%;}
+.login-wapper {margin: -80px auto 0; float: none;}
+}  
+@media only screen and (max-width:991px) {
+.login-wapper {
+    margin:331px auto 0 140px;
+    float: none;}
+    .input-field {
+    width: 100%;
+    padding: 11px 250px 6px 7px;
+    }
+
+}
+@media only screen and (max-width: 767px){
+.login-wapper {
+    margin: 199px auto 0 5px;
+    float: none;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px 109px 11px 7px;
+    }
+
